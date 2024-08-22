@@ -1,0 +1,92 @@
+[
+    {
+        "source": "Główny Urząd Geodezji i Kartografii (GUGiK) - Geoportal.gov.pl",
+        "name": "Baza Danych Obiektów Topograficznych (BDOT10k)",
+        "tiles_name": "BDOT10k",
+        "url": "https://mapy.geoportal.gov.pl/wss/service/WMTS/guest/wmts/BDOT10k",
+        "format": "image/png",
+        "supported_crs": ["EPSG:2180", "EPSG:4326"],
+        "id": 1
+    },
+    {
+        "source": "Główny Urząd Geodezji i Kartografii (GUGiK) - Geoportal.gov.pl",
+        "name": "Ortofotomapa standardowa",
+        "tiles_name": "ORTOFOTOMAPA",
+        "url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution",
+        "format": "image/jpeg",
+        "supported_crs": ["EPSG:2180", "EPSG:4326", "EPSG:3857"],
+        "id": 2
+    },
+    {
+        "source": "Główny Urząd Geodezji i Kartografii (GUGiK) - Geoportal.gov.pl",
+        "name": "Ortofotomapa o wysokiej rozdzielczości",
+        "tiles_name": "ORTOFOTOMAPA",
+        "url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/HighResolution",
+        "format": "image/jpeg",
+        "supported_crs": ["EPSG:2180", "EPSG:4326"],
+        "id": 3
+    },
+    {
+        "source": "Główny Urząd Geodezji i Kartografii (GUGiK) - Geoportal.gov.pl",
+        "name": "Cieniowanie",
+        "tiles_name": "ISOK_Cien",
+        "url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMTS/ShadedRelief",
+        "format": "image/jpeg",
+        "supported_crs": ["EPSG:2180"],
+        "id": 4
+    },
+    {
+        "source": "Główny Urząd Geodezji i Kartografii (GUGiK) - Geoportal.gov.pl",
+        "name": "Hipsometria",
+        "tiles_name": "ISOK_Hipso",
+        "url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMTS/Hypsometry",
+        "format": "image/jpeg",
+        "supported_crs": ["EPSG:2180"],
+        "id": 5
+    },
+    {
+        "source": "Główny Urząd Geodezji i Kartografii (GUGiK) - Geoportal.gov.pl",
+        "name": "Cieniowanie i hipsometria",
+        "tiles_name": "ISOK_CienHipso",
+        "url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMTS/HypsometryAndShadedRelief",
+        "format": "image/jpeg",
+        "supported_crs": ["EPSG:2180"],
+        "id": 6
+    },
+    {
+        "source": "Główny Urząd Geodezji i Kartografii (GUGiK) - Geoportal.gov.pl",
+        "name": "Mapa podkładowa BDOO i BDOT10k",
+        "tiles_name": "G2_MOBILE_500",
+        "url": "https://mapy.geoportal.gov.pl/wss/service/WMTS/guest/wmts/G2_MOBILE_500",
+        "format": "image/png",
+        "supported_crs": ["EPSG:2180"],
+        "id": 7
+    },
+    {
+        "source": "Główny Urząd Geodezji i Kartografii (GUGiK) - Geoportal.gov.pl",
+        "name": "Rastrowa Mapa Topograficzna Polski",
+        "tiles_name": "MAPA TOPOGRAFICZNA",
+        "url": "https://mapy.geoportal.gov.pl/wss/service/WMTS/guest/wmts/TOPO",
+        "format": "image/jpeg",
+        "supported_crs": ["EPSG:2180", "EPSG:4326"],
+        "id": 8
+    },
+	{
+        "source": "Główny Urząd Geodezji i Kartografii (GUGiK) - Geoportal.gov.pl",
+        "name": "Baza Danych Obiektów Ogólnogeograficznych 2015 (BDOO)",
+        "tiles_name": "BDOO",
+        "url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/BDOO/WMTS/2015",
+        "format": "image/jpeg",
+        "supported_crs": ["EPSG:2180"],
+        "id": 9
+    },
+	{
+        "source": "Główny Urząd Geodezji i Kartografii (GUGiK) - Geoportal.gov.pl",
+        "name": "Baza Danych Obiektów Ogólnogeograficznych 2021 (BDOO)",
+        "tiles_name": "BDOO",
+        "url": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/BDOO/WMTS/aktualne",
+        "format": "image/jpeg",
+        "supported_crs": ["EPSG:2180"],
+        "id": 10
+    }
+]
